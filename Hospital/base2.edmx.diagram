@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0e298e45e817478da0f9e82a0e5b99f9" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="Hospital.AppointmentToADoctor" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital.Cabinet" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital.CabinetCpeciality" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital.Clinic" Width="1.5" PointX="3" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital.doctor" Width="1.5" PointX="6" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital.MedicalCard" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital.Patiens" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital.Recipe" Width="1.5" PointX="8.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital.Service" Width="1.5" PointX="3.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital.Stuff" Width="1.5" PointX="0.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital.sysdiagrams" Width="1.5" PointX="8.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital.WorkShift" Width="1.5" PointX="3.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Hospital.administration" Width="1.5" PointX="8.25" PointY="2" IsExpanded="true" />
+        <AssociationConnector Association="Hospital.FK_AppointmentToADoctor_Cabinet" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital.FK_AppointmentToADoctor_Clinic" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital.FK_AppointmentToADoctor_Patiens" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital.FK_Cabinet_CabinetCpeciality" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital.FK_administration_doctor" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital.FK_doctor_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital.FK_doctor_WorkShift" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital.FK_Recipe_doctor" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital.FK_Patiens_MedicalCard" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital.FK_administration_Patiens" ManuallyRouted="false" />
+        <AssociationConnector Association="Hospital.FK_Recipe_Patiens" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
